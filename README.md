@@ -9,4 +9,4 @@ This is where I'm putting my forays into neural networks and, more generally, ma
 
 - neuralnetevolve.py is a general-purpose neural net, with weights adjusted by genetic algorithm. Works in any environment, although results may vary for the more complex ones, and evolution may take quite some time...
 
-- backpropgen1.py teaches a neural network through backwards propagation, a different method of machine learning which actively encourages good behaviour and discourages bad, through a technique known as gradient descent.
+- backpropgen1.py teaches a neural network through backwards propagation, a different method of machine learning which actively encourages good behaviour and discourages bad, through a technique known as gradient descent. The way it chooses whether to encourage or discourage is pretty rudimentary, so it's rather slow and it only works for the cartpole environment and similar.
