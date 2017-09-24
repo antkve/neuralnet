@@ -7,7 +7,7 @@ This is where I'm putting my forays into neural networks and, more generally, ma
 
 - PIDevolve.py was my first foray into machine learning, and doesn't actually involve neural nets, but a PID controller. It was built for, and only works on, problems where the goal is to keep some quantity as constant as possible, e.g. the 'cartpole' environment in OpenAI Gym (https://gym.openai.com/envs/CartPole-v1/). It tunes the coefficients in the PID function through a genetic algorithm.
 
-- neuralnetevolve.py is a general-purpose neural net, with weights adjusted by genetic algorithm. Works in any environment, although results may vary for the more complex ones, and evolution may take quite some time...
+- neuralnetevolve.py is a general-purpose neural net, with weights adjusted by genetic algorithm. Works in any environment, although results may vary for the more complex ones, and evolution may take quite some time. Here's it learning how to land a lunar lander in an openAI gym environment: https://www.youtube.com/watch?v=X0UEikltbZs
 
 - backprop1.py teaches a neural network through backwards propagation, a different method of machine learning which actively encourages good behaviour and discourages bad, through a technique known as gradient descent. The way it chooses whether to encourage or discourage is pretty rudimentary, so it's rather slow and it only works for the cartpole environment and similar.
 
