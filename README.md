@@ -11,7 +11,7 @@ This is where I'm putting my forays into neural networks and, more generally, ma
 
 - backprop1.py teaches a neural network through backwards propagation, a different method of machine learning which actively encourages good behaviour and discourages bad, through a technique known as gradient descent. The way it chooses whether to encourage or discourage is pretty rudimentary, so it's rather slow and it only works for the cartpole environment and similar.
 
-- neuralnetcrypto.py is a trading bot for crypto markets (bitcoin, ethereum, etc). It trains on historical price data, learning to notice patterns in the Relative Strength Index and Moving Averge indicators. It does pretty well atm but will be extending it to analyze more indicators soon:
+- neuralnetcrypto.py is a trading bot for crypto markets (bitcoin, ethereum, etc). It trains on historical price data, learning to notice patterns in the Relative Strength Index and Moving Average indicators. It does pretty well atm but i'll be extending it to analyze more indicators soon:
 
 Performance if randomly choosing to buy or sell (profit ratio vs trials) :
 https://i.imgur.com/9ZaayLJ.png
